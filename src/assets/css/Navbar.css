@@ -1,0 +1,25 @@
+.header__line {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #848688;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding-left: 10px;
+}
+
+.navbar :hover {
+  text-decoration: underline;
+}
+
+.navbar__option {
+  margin: 10px 15px 15px 12px;
+  color: #000;
+  cursor: pointer;
+}
